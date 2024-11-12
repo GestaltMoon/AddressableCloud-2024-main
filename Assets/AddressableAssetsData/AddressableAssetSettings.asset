@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: efa700c02da964945a67aa56756c66a9
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: d0d3577d65ffa19578f17a1c03a8b3e5
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -46,6 +46,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: eaff3799b4f37fb42b231e77d1e1cd14, type: 2}
   - {fileID: 11400000, guid: c47bc898d3f82ff4e937492652642a09, type: 2}
+  - {fileID: 11400000, guid: 2d71bebff54ac004b82bf29680534358, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -67,6 +68,20 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: 57cbbbb157b5b9d4cbc05c15227fd08e
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: 06bbdecd2eb5a144ca4717d0d44d8cee
+      m_ProfileName: RemoteAssets
+      m_Values:
+      - m_Id: 2c3807a07227453488a8458dc951198d
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: c8567bebf4ed6d0448afb93ca1a54933
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 036a45f1563eda64d9032827a61e3278
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 9974ff2dbb9b26647b684199cd291bc4
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 57cbbbb157b5b9d4cbc05c15227fd08e
+        m_Value: https://raw.githubusercontent.com/GestaltMoon/AddressableCloud-2024-main/refs/heads/main/
     m_ProfileEntryNames:
     - m_Id: 2c3807a07227453488a8458dc951198d
       m_Name: BuildTarget
@@ -100,7 +115,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 46874ef5b4054ca4b9f1afb96dbbbf5d, type: 2}
   - {fileID: 11400000, guid: d592245f7a56eb84f9b0de3380c1775d, type: 2}
   - {fileID: 11400000, guid: a60f465a2f0d93949b7aa8b0e7eb3586, type: 2}
-  m_ActiveProfileId: 5e0297c9a1883d046b9312a3a5e312a3
+  m_ActiveProfileId: 06bbdecd2eb5a144ca4717d0d44d8cee
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
